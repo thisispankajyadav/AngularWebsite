@@ -1,0 +1,27 @@
+<table>
+    <tr> <th>Details</th> </tr>
+    <tr>
+        <th>Id </th>
+        <th>Name </th>
+        <th>Email </th>
+    </tr>
+
+    <tr *ngFor="let s of student">
+    <td (click)="clicked(s)">{{s.id}}</td>
+    <td (click)="onclick(s.name)">{{s.name}}</td>
+    <td>{{s.email}}</td>
+    </tr>
+</table>
+<h3 *ngIf="selectedName"> You clicked {{selectedName}}</h3>
+<div *ngIf="selectedStudent">
+<h3> Details</h3>
+<h3>Id: {{selectedStudent.id}}</h3>
+<h3>Name: {{selectedStudent.name}}</h3>
+<h3>Email: {{selectedStudent.email}}</h3>
+</div>
+<br>
+<br>
+
+
+<h4 *ngIf="sname"> Your name is {{sname}}</h4>
+Enter your name: <input [(ngModel)] ="sname"/>

@@ -1,0 +1,23 @@
+<div class="course">
+<table border="3">
+    <tr>
+        <th>CourseId</th>
+        <th>CourseName</th>
+        <th>CourseDescription</th>
+        <th>CourseDuration</th>
+        <th colspan="2"> Action</th>
+    </tr>
+    <tbody>
+        <tr *ngFor="let course of courses">
+            <td> {{course.id}}</td>
+            <td> {{course.course_name}}</td>
+            <td> {{course.course_description}}</td>
+            <td> {{course.duration}}</td>
+             <td><button (click)="deleteCourse(course)">Delete</button> 
+             <td> <button>  <a routerLink="/editcourse/{{course.id}}"> Update</a> </button></td>
+
+        </tr>
+    </tbody>
+
+</table>
+</div>

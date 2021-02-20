@@ -1,0 +1,19 @@
+<div class="updatecourse">
+    <h1> Update Course </h1>
+<table>
+
+<tr> 
+    <td> Name:</td>
+    <td> <input [(ngModel)]="course.course_name" name="course_name"> </td>
+</tr>
+<tr> 
+    <td> Course-Description: </td>
+    <td> <input [(ngModel)]="course.course_description" name="course_description"> </td>
+</tr>
+<tr> 
+    <td> Duration:</td>
+    <td> <input [(ngModel)]="course.duration" name="duration"> </td>
+</tr>
+<tr id="updatebutton"><button (click)="updateCourse()">Update</button> </tr>
+</table>
+</div>

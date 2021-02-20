@@ -1,0 +1,21 @@
+<div class="addcourse">
+    <h1> Add Course Details</h1>
+<table>
+
+    <tr> <td> Name: </td>
+    <td> <input [(ngModel)]="course.course_name" name="course_name"> </td>
+    </tr>
+    <tr>
+<td>Description: </td>
+<td> <input [(ngModel)]="course.course_description" name="course_description"></td>
+    </tr>
+    <tr>
+<td>Duration: </td>
+<td> <input [(ngModel)]="course.duration" name="duration"></td>
+    </tr>
+
+    <tr>
+        <button (click)="addCourse()"> Add</button>
+    </tr>
+</table>
+</div>
