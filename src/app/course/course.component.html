@@ -14,7 +14,7 @@
             <td> {{course.course_description}}</td>
             <td> {{course.duration}}</td>
              <td><button (click)="deleteCourse(course)">Delete</button> 
-             <td> <button>  <a routerLink="/editcourse/{{course.id}}"> Update</a> </button></td>
+             <td> <button>  <a class="update" routerLink="/editcourse/{{course.id}}"> Update</a> </button></td>
 
         </tr>
     </tbody>

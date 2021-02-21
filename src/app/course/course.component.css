@@ -1,5 +1,6 @@
 .course
 {
+    text-decoration: none;
     top: 50%;
         left: 40%;
         max-width: 850px;
@@ -25,4 +26,12 @@ th{
 }
 th,td{
     padding: 5px;
+}
+.update
+{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
 }

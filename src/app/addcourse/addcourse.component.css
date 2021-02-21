@@ -1,18 +1,20 @@
 .addcourse
 {
+        font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         top: 50%;
         left: 50%;
         max-width: 550px;
         border-radius: 20px;
         margin: auto;
         box-sizing: border-box;
-        background: rgba(0,0,0,0.72);
+        background: rgba(0, 0, 0, 0.72);
         padding: 50px;
         line-height: 2;
         border: none;
         font-size: 20px;
         font-family: Times New Roman; 
         background: transparent;
+        background-color: whitesmoke;
     
 }
 
@@ -39,6 +41,9 @@
 
 .addcourse button
 {
+    justify-content: center;    
+    text-align: center;
+    text-decoration: none;
     width: 100%;
     box-sizing: border-box;
     height: 38px;
@@ -46,8 +51,16 @@
     border: none;
     padding-left: 20px;
     padding-right: 20px;
-    color: orangered;
+    color: black;
     border-radius: 5px;
     padding : 10px 0;
     float: right;
+    background-color: white;
+    font-size: 15px;
+    cursor:pointer;
+}
+.addcourse button:hover
+{
+        color: brown;
+        background-color: goldenrod;
 }

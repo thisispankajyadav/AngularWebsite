@@ -1,5 +1,6 @@
 .nav-bar
 {
+    text-decoration: none;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -28,7 +29,16 @@
     text-align: center;
     font-size: 25px;
 }
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
 
+.nav-bar a:hover
+{
+    color: brown;
+}
 .header a{
     color: #ffffff;
     text-decoration: none;
